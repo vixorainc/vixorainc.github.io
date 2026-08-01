@@ -1,0 +1,12 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#0f172a;color:#e5e7eb}
+nav{display:flex;justify-content:space-between;padding:18px 8%;background:#111827;position:sticky;top:0}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{padding:80px 8%;background:linear-gradient(135deg,#2563eb,#06b6d4)}
+.btn{display:inline-block;background:#fff;color:#111827;padding:12px 20px;border-radius:8px;text-decoration:none;font-weight:bold}
+section{padding:60px 8%}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.card{background:#1f2937;padding:20px;border-radius:12px}
+footer{padding:30px;text-align:center;background:#111827}
+.container{max-width:900px;margin:auto;padding:40px 8%}
+h1,h2{color:#fff}
