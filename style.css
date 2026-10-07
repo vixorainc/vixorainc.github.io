@@ -53,3 +53,17 @@ footer,.footer{width:min(var(--max),calc(100% - 36px));margin:24px auto 28px;pad
  .container .card{min-height:auto;padding:27px 23px}
  .product-icon.app-logo{width:60px;height:60px;border-radius:16px}
 }
+/* 2026-10-08 exact supplied Vixora company lockup */
+.navbar .logo img{width:350px;max-width:36vw;height:auto}
+footer .footer-logo{width:320px;height:auto}
+.wrap .brand img{width:255px;height:auto}
+.wrap .footer img{width:255px;height:auto}
+@media(max-width:980px){
+  .navbar .logo img{width:300px;max-width:46vw}
+}
+@media(max-width:760px){
+  .navbar .logo img{width:265px;max-width:88vw}
+  footer .footer-logo{width:250px}
+  .wrap .brand img{width:220px}
+  .wrap .footer img{width:220px}
+}
