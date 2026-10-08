@@ -1,26 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 315" role="img" aria-labelledby="title description">
-<title id="title">Vixora</title><desc id="description">Vixora butterfly mark and original website wordmark</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 785 290" role="img" aria-labelledby="title desc">
+<title id="title">Vixora</title><desc id="desc">Vixora neon blue butterfly logo — Apps for a brighter you</desc>
 <defs>
-  <linearGradient id="ul" x1=".08" y1=".1" x2=".95" y2="1"><stop stop-color="#7ffbff"/><stop offset=".35" stop-color="#14d8fc"/><stop offset=".72" stop-color="#0767ed"/><stop offset="1" stop-color="#3a26d9"/></linearGradient>
-  <linearGradient id="ur" x1=".7" y1=".02" x2=".12" y2="1"><stop stop-color="#9dffff"/><stop offset=".42" stop-color="#3df6ef"/><stop offset=".8" stop-color="#13adf2"/><stop offset="1" stop-color="#5240e9"/></linearGradient>
-  <linearGradient id="ll" x1=".13" y1="0" x2=".82" y2="1"><stop stop-color="#68f6ff"/><stop offset=".4" stop-color="#128cfc"/><stop offset="1" stop-color="#2333e8"/></linearGradient>
-  <linearGradient id="lr" x1=".7" y1="0" x2=".2" y2="1"><stop stop-color="#86ffff"/><stop offset=".5" stop-color="#03cafb"/><stop offset="1" stop-color="#2a3ded"/></linearGradient>
-  <linearGradient id="tail" x1=".2" y1="0" x2=".9" y2="1"><stop stop-color="#35ebff"/><stop offset=".45" stop-color="#1744fc"/><stop offset=".8" stop-color="#9635fb"/><stop offset="1" stop-color="#ca6afa"/></linearGradient>
-  <linearGradient id="name" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".7" stop-color="#f8fbff"/><stop offset="1" stop-color="#bfddff"/></linearGradient>
-  <filter id="bloom" x="-12%" y="-15%" width="124%" height="130%"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<linearGradient id="brandLeft" x1="0" y1="0" x2="0.9" y2="1"><stop offset="0" stop-color="#80F8FF"/><stop offset=".46" stop-color="#18DBFA"/><stop offset="1" stop-color="#155BFA"/></linearGradient>
-<linearGradient id="brandRight" x1=".9" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#75FFFF"/><stop offset=".53" stop-color="#27CCFA"/><stop offset="1" stop-color="#185DF1"/></linearGradient>
-<linearGradient id="brandLower" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#36F2FF"/><stop offset=".48" stop-color="#0697FF"/><stop offset="1" stop-color="#2742FB"/></linearGradient>
-<linearGradient id="brandTail" x1=".2" y1="0" x2=".8" y2="1"><stop stop-color="#12CCFF"/><stop offset=".52" stop-color="#224CFC"/><stop offset="1" stop-color="#A43FFF"/></linearGradient></defs>
-<g transform="translate(36 45) scale(3.65)" stroke-linejoin="round">
-<path d="M41 29 C32 13 22 4 10 2 C3 0 0 5 3 12 C8 24 22 34 41 35 Z" fill="url(#brandLeft)" stroke="#80F4FF" stroke-width=".55"/>
-<path d="M41 29 C50 13 60 4 72 2 C79 0 83 5 80 12 C75 24 61 34 41 35 Z" fill="url(#brandRight)" stroke="#8AF7FF" stroke-width=".55"/>
-<path d="M41 35 C32 29 23 24 13 24 C10 28 14 37 22 43 C28 47 34 49 41 48 Z" fill="url(#brandLower)" stroke="#63E9FF" stroke-width=".4"/>
-<path d="M41 35 C50 29 59 24 69 24 C72 28 68 37 60 43 C54 47 48 49 41 48 Z" fill="url(#brandRight)" stroke="#5DF3FF" stroke-width=".4"/>
-<path d="M41 34 C35 43 29 50 32 55 C34 60 38 62 41 62 C44 62 48 60 50 55 C53 50 47 43 41 34 Z" fill="url(#brandTail)" stroke="#8A92FF" stroke-width=".45"/>
-<path d="M6 8 C16 1 31 16 39 30" fill="none" stroke="#BEFFFF" stroke-opacity=".5" stroke-width=".8"/>
-<path d="M76 8 C66 1 51 16 43 30" fill="none" stroke="#BDFFFF" stroke-opacity=".5" stroke-width=".8"/>
+<linearGradient id="wingL1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#A8FFFF"/><stop offset="0.35" stop-color="#45E7FF"/><stop offset="0.72" stop-color="#0F8DFF"/><stop offset="1" stop-color="#1C33FF"/></linearGradient>
+<linearGradient id="wingR1" x1="1" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B5FFFF"/><stop offset="0.38" stop-color="#63F1FF"/><stop offset="0.76" stop-color="#17B3FF"/><stop offset="1" stop-color="#2B4CFF"/></linearGradient>
+<linearGradient id="wingL2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8CFBFF"/><stop offset="0.45" stop-color="#1EDCFF"/><stop offset="0.8" stop-color="#0F82FF"/><stop offset="1" stop-color="#2234FF"/></linearGradient>
+<linearGradient id="tailGrad" x1="0.2" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#6CF5FF"/><stop offset="0.42" stop-color="#2375FF"/><stop offset="0.78" stop-color="#6A39FF"/><stop offset="1" stop-color="#D56EFF"/></linearGradient>
+<linearGradient id="textGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EAF1FF"/></linearGradient>
+<filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%"><feGaussianBlur stdDeviation="4" result="blur"/><feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.7 0" result="glow"/><feMerge><feMergeNode in="glow"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(35 12)" filter="url(#softGlow)">
+<path d="M165 140 C126 61, 74 17, 27 19 C10 20, 5 31, 8 45 C17 86, 74 133, 163 154 Z" fill="url(#wingL1)" stroke="#BEFFFF" stroke-width="2.2"/>
+<path d="M176 140 C216 60, 272 18, 318 18 C335 19, 340 30, 336 44 C327 85, 268 133, 178 154 Z" fill="url(#wingR1)" stroke="#D0FFFF" stroke-width="2.2"/>
+<path d="M163 154 C123 118, 84 96, 49 100 C44 106, 48 119, 63 132 C88 151, 122 162, 158 165 Z" fill="url(#wingL2)" stroke="#A5F8FF" stroke-width="1.8"/>
+<path d="M179 154 C219 118, 258 96, 293 100 C299 106, 294 119, 279 132 C255 151, 220 162, 184 165 Z" fill="url(#wingR1)" stroke="#B6FFFF" stroke-width="1.8"/>
+<path d="M171 149 C161 172, 150 198, 152 219 C154 243, 168 264, 183 264 C199 264, 214 243, 216 219 C217 197, 204 173, 188 149 Z" fill="url(#tailGrad)" stroke="#E0B1FF" stroke-width="2"/>
+<path d="M29 29 C60 18, 109 58, 158 144" fill="none" stroke="#F3FFFF" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
+<path d="M317 29 C286 18, 238 58, 189 144" fill="none" stroke="#F3FFFF" stroke-opacity=".55" stroke-width="4" stroke-linecap="round"/>
 </g>
-<text x="380" y="180" font-family="Arial,Helvetica,sans-serif" font-size="147" font-weight="800" letter-spacing="-6" fill="url(#name)">Vixora</text>
-<text x="388" y="245" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#d8e3f4" letter-spacing="-.5">Apps for a brighter you</text>
+<g transform="translate(390 0)">
+<text x="0" y="165" font-family="Inter,Arial,Helvetica,sans-serif" font-size="122" font-weight="800" letter-spacing="-4" fill="url(#textGrad)">Vixora</text>
+<text x="0" y="225" font-family="Inter,Arial,Helvetica,sans-serif" font-size="33" font-weight="400" fill="#E7EEFA" letter-spacing="-0.2">Apps for a brighter you</text>
+</g>
 </svg>
