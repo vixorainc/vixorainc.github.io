@@ -32,39 +32,79 @@ footer,.footer{width:min(var(--max),calc(100% - 36px));margin:24px auto 28px;pad
 .brand-note{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:13px;margin-top:25px}.brand-note img{width:30px}
 @media(max-width:980px){.hero-grid{grid-template-columns:1fr}.hero-panel{max-width:650px}.section-head,.cta-card{display:grid;align-items:start}.info-grid,.value-grid,.wrap .grid{grid-template-columns:1fr}.product-grid{grid-template-columns:1fr}.product-card.wide{grid-column:auto}}
 @media(max-width:760px){.navbar{width:calc(100% - 22px);margin-top:10px;position:relative;top:0;flex-direction:column;align-items:flex-start}.nav-links{gap:3px}.hero,section,.container,.wrap,footer,.footer{width:calc(100% - 22px)}.hero{padding:42px 22px}.hero h1{font-size:43px}.hero-stats,.cards{grid-template-columns:1fr}.section-head{align-items:flex-start}.wrap .nav{flex-direction:column;align-items:flex-start}.wrap .hero{padding:38px 22px}.logo img{width:155px}.footer-logo{width:168px}}
-
-/* 2026-10-08 brand, legal-card and product-logo refinement */
-.logo img{width:236px;height:auto}
-.footer-logo{width:238px;height:auto}
-.wrap .brand img{width:190px;height:auto}
-.product-icon.app-logo{width:66px;height:66px;border-radius:18px;overflow:hidden;padding:0;background:rgba(255,255,255,.045);border:1px solid rgba(255,255,255,.12);box-shadow:0 10px 26px rgba(0,0,0,.22)}
-.product-icon.app-logo img{width:100%;height:100%;object-fit:cover;display:block}
-.cards{gap:28px}
-.container .card{padding:34px 32px 30px;min-height:238px;display:flex;flex-direction:column;align-items:flex-start}
-.container .card .status{align-self:flex-start;margin-bottom:17px}
-.container .card h3{margin:4px 0 13px;font-size:27px;line-height:1.17}
-.container .card p{margin:0 0 18px;line-height:1.76}
-.container .card>a{margin-top:auto;padding-top:11px}
+/* Vixora site-wide UI system — October 2026 */
+:root{--interactive:#b8eeff;--outline:rgba(255,255,255,.17);--space-section:72px}
+body{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7}
+.navbar{gap:22px;padding:14px 22px}
+.navbar .logo img{width:334px;max-width:none;height:auto}
+.nav-links{justify-content:flex-end;gap:5px}
+.nav-links a,.wrap .navlinks a{font:700 15px/1.35 Inter,ui-sans-serif,system-ui,sans-serif;letter-spacing:.005em;padding:11px 12px}
+a:focus-visible{outline:3px solid var(--cyan);outline-offset:4px;border-radius:10px}
+.footer-logo{width:300px;height:auto}
+.wrap .brand img{width:246px;height:auto}
+.wrap .footer img{width:245px;height:auto;margin:0 auto 14px}
+.wrap .nav{gap:24px;padding:17px 21px;margin-bottom:34px}
+.wrap .navlinks{gap:6px}
+.wrap .navlinks a{color:#e0e8f9}
+.section-head{margin-bottom:36px}
+.section-head>p,.section-title p{line-height:1.75}
+.info-card .num,.value-card .num{
+ display:inline-flex;align-items:center;gap:9px;margin-bottom:19px;color:#b9e7ff;
+ font-family:inherit;font-size:13px;font-weight:730;line-height:1.4;letter-spacing:.03em;
+ text-transform:none
+}
+.info-card .num:before,.value-card .num:before{content:"";width:16px;height:2px;border-radius:9px;background:var(--cyan)}
+.info-card h3,.value-card h3{font-size:23px;font-weight:750;letter-spacing:-.023em}
+.product-card{display:flex;flex-direction:column;align-items:stretch;min-height:310px}
+.product-card .card-actions{margin-top:auto;display:flex;align-items:center;justify-content:flex-end;gap:16px;padding-top:25px}
+.product-card .card-actions .btn{margin-right:auto}
+.product-card .card-actions .circle-link{margin-left:auto}
+.circle-link{
+ display:inline-flex!important;align-items:center;justify-content:center;flex:none;
+ width:49px;height:49px;min-width:49px;padding:0!important;margin:0!important;
+ border:1px solid rgba(163,226,255,.35);border-radius:50%;
+ color:#f1fbff;background:rgba(64,152,220,.1);
+ box-shadow:0 5px 15px rgba(0,0,0,.12);transition:background .2s,transform .2s,border-color .2s
+}
+.circle-link svg{width:21px;height:21px;stroke:currentColor;stroke-width:1.9;fill:none;stroke-linecap:round;stroke-linejoin:round}
+.circle-link:hover{background:rgba(80,190,255,.21);border-color:var(--cyan);transform:translateX(2px);color:#fff}
+.circle-link:focus-visible{outline:3px solid #5de4ff;outline-offset:3px}
+.container{padding-top:56px;padding-bottom:20px}
+.container .section-title{margin-bottom:42px}
+.container .cards{gap:26px;align-items:stretch}
+.container .card{padding:32px;min-height:236px;display:flex;flex-direction:column;align-items:flex-start}
+.container .card .status{margin:0 0 17px;align-self:flex-start}
+.container .card h3{font-size:26px;letter-spacing:-.025em;line-height:1.25;margin:0 0 13px}
+.container .card p{font-size:15px;line-height:1.8;margin:0 0 23px}
+.container .card .circle-link{margin-top:auto!important;align-self:flex-end}
+.container .card:not(.legal) a:not(.circle-link){text-decoration:underline;text-underline-offset:3px}
+.container .card h3[style]{margin-top:26px!important}
+.wrap>.legal{margin:30px 0 42px;padding:clamp(25px,4.5vw,52px);border-radius:28px}
+.legal h1{line-height:1.1;max-width:920px}
+.legal h2{font-size:clamp(20px,2.8vw,24px);line-height:1.3;letter-spacing:-.015em;margin-top:33px;margin-bottom:10px}
+.legal p,.legal li{font-size:15px;line-height:1.86;overflow-wrap:anywhere}
+.legal .meta{margin-bottom:28px}
+.wrap .hero{margin-top:28px}
+.cta-card{gap:28px}
+.portfolio-future{display:inline-flex;align-items:center;gap:9px;color:#d9e9fc;font-weight:700;font-size:14px;margin-top:21px}
+.portfolio-future:before{content:"";width:7px;height:7px;border-radius:50%;background:#57e3f5}
+@media(max-width:1080px){
+ .navbar{flex-wrap:wrap}
+ .navbar .logo img{width:282px}
+ .nav-links{justify-content:flex-start}
+}
 @media(max-width:760px){
- .logo img{width:198px}
- .footer-logo{width:205px}
- .wrap .brand img{width:168px}
- .cards{gap:19px}
- .container .card{min-height:auto;padding:27px 23px}
- .product-icon.app-logo{width:60px;height:60px;border-radius:16px}
+ .navbar .logo img{width:min(285px,82vw)}
+ .nav-links a,.wrap .navlinks a{font-size:14px;padding:10px}
+ .footer-logo{width:255px}
+ .wrap .brand img{width:205px}
+ .wrap .footer img{width:208px}
+ .wrap .nav{margin-bottom:25px}
+ .product-card{min-height:0;padding:25px}
+ .container{padding-top:45px}
+ .container .section-title{margin-bottom:31px}
+ .container .cards{gap:18px}
+ .container .card{min-height:0;padding:27px 24px}
+ .wrap>.legal{padding:25px 22px;margin:25px 0 35px}
+ .circle-link{width:47px;height:47px;min-width:47px}
 }
-/* 2026-10-08 exact supplied Vixora company lockup */
-.navbar .logo img{width:350px;max-width:36vw;height:auto}
-footer .footer-logo{width:320px;height:auto}
-.wrap .brand img{width:255px;height:auto}
-.wrap .footer img{width:255px;height:auto}
-@media(max-width:980px){
-  .navbar .logo img{width:300px;max-width:46vw}
-}
-@media(max-width:760px){
-  .navbar .logo img{width:265px;max-width:88vw}
-  footer .footer-logo{width:250px}
-  .wrap .brand img{width:220px}
-  .wrap .footer img{width:220px}
-}
-
