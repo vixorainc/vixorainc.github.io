@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 315" role="img" aria-labelledby="title description">
+<title id="title">Vixora</title><desc id="description">Vixora butterfly logo — Apps for a brighter you</desc>
+<defs>
+  <linearGradient id="ul" x1=".08" y1=".1" x2=".95" y2="1"><stop stop-color="#7ffbff"/><stop offset=".35" stop-color="#14d8fc"/><stop offset=".72" stop-color="#0767ed"/><stop offset="1" stop-color="#3a26d9"/></linearGradient>
+  <linearGradient id="ur" x1=".7" y1=".02" x2=".12" y2="1"><stop stop-color="#9dffff"/><stop offset=".42" stop-color="#3df6ef"/><stop offset=".8" stop-color="#13adf2"/><stop offset="1" stop-color="#5240e9"/></linearGradient>
+  <linearGradient id="ll" x1=".13" y1="0" x2=".82" y2="1"><stop stop-color="#68f6ff"/><stop offset=".4" stop-color="#128cfc"/><stop offset="1" stop-color="#2333e8"/></linearGradient>
+  <linearGradient id="lr" x1=".7" y1="0" x2=".2" y2="1"><stop stop-color="#86ffff"/><stop offset=".5" stop-color="#03cafb"/><stop offset="1" stop-color="#2a3ded"/></linearGradient>
+  <linearGradient id="tail" x1=".2" y1="0" x2=".9" y2="1"><stop stop-color="#35ebff"/><stop offset=".45" stop-color="#1744fc"/><stop offset=".8" stop-color="#9635fb"/><stop offset="1" stop-color="#ca6afa"/></linearGradient>
+  <linearGradient id="name" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffffff"/><stop offset=".7" stop-color="#f8fbff"/><stop offset="1" stop-color="#bfddff"/></linearGradient>
+  <filter id="bloom" x="-12%" y="-15%" width="124%" height="130%"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<g transform="translate(8 0)" filter="url(#bloom)">
+  <path d="M175 160C134 83 74 39 26 46 4 50 10 93 30 126 63 180 122 197 171 192Z" fill="url(#ul)" stroke="#64f4ff" stroke-width="2.5"/>
+  <path d="M183 160C226 80 288 39 335 47c20 6 13 46-6 78-32 53-92 72-144 67Z" fill="url(#ur)" stroke="#9bffff" stroke-width="2.5"/>
+  <path d="M169 177C132 129 83 108 61 125c-12 12 4 47 38 65 29 17 62 21 82 12Z" fill="url(#ll)" stroke="#58eaff" stroke-width="2"/>
+  <path d="M190 177c37-48 86-69 108-52 12 12-4 47-38 65-29 17-62 21-82 12Z" fill="url(#lr)" stroke="#7ffbff" stroke-width="2"/>
+  <path d="M177 170C169 195 148 231 150 254c2 24 20 48 37 48 17 0 38-24 39-48 1-24-27-60-49-84Z" fill="url(#tail)" stroke="#bb7eff" stroke-width="2"/>
+  <path d="M35 61C81 39 128 98 167 162" fill="none" stroke="#c5ffff" stroke-opacity=".62" stroke-width="5" stroke-linecap="round"/>
+  <path d="M323 62C277 42 229 103 190 163" fill="none" stroke="#dbffff" stroke-opacity=".6" stroke-width="5" stroke-linecap="round"/>
+</g>
+<text x="380" y="180" font-family="Arial,Helvetica,sans-serif" font-size="147" font-weight="800" letter-spacing="-6" fill="url(#name)">Vixora</text>
+<text x="388" y="245" font-family="Arial,Helvetica,sans-serif" font-size="42" font-weight="400" fill="#d8e3f4" letter-spacing="-.5">Apps for a brighter you</text>
+</svg>
