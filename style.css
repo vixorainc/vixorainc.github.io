@@ -68,11 +68,3 @@ footer .footer-logo{width:320px;height:auto}
   .wrap .footer img{width:220px}
 }
 
-/* 2026-10-08 clean Vixora lockup: replaces artifacted raster everywhere without changing page markup */
-.logo img,
-.footer-logo,
-.wrap .brand img,
-.wrap .footer img {
-  content: url("assets/vixora-logo-clean.png");
-  object-fit: contain;
-}
